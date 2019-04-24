@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "nodemon -w ./src ./src/server.js localhost 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "indicative": "^5.0.8",
+    "mongodb": "^3.2.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
